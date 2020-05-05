@@ -23,7 +23,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: top;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1766,8 +1766,10 @@ input, select, textarea {
 
 		header > p {
 			display: block;
-			font-size: 1.5em;
-			margin: 1em 0 2em 0;
+			width: 80%;
+			padding-top: 2%;
+			font-size: 1.2em;
+			margin: auto;
 			line-height: 1.5em;
 			text-align: inherit;
 		}
@@ -2214,6 +2216,7 @@ input, select, textarea {
 		}
 
 		#header header {
+			padding: 2em 0;
 			width: 100%;
 			display: inline-block;
 			background-color: rgba(58, 58, 58, 0.8);
@@ -2221,12 +2224,12 @@ input, select, textarea {
 
 			#header header > p {
 				font-size: 1.25em;
-				margin: 0;
+				margin: auto;
 			}
 
 		#header h1 {
 			color: #fff;
-			font-size: 3em;
+			font-size: 2em;
 			line-height: 1em;
 		}
 
@@ -2600,6 +2603,7 @@ input, select, textarea {
 			position: relative;
 			-webkit-overflow-scrolling: touch;
 			padding: 0 2em 0 2em;
+			/* vertical-align: top !important; */
 		}
 
 		.carousel article {
@@ -2625,9 +2629,11 @@ input, select, textarea {
 				position: relative;
 				left: -1em;
 				top: 0;
+				height: 60%;
 				width: auto;
 				margin-right: -2em;
 				margin-bottom: 3em;
+				padding: 1em 3em;
 			}
 
 			.carousel article p {
@@ -2657,6 +2663,7 @@ input, select, textarea {
 
 				.carousel article {
 					width: 18em;
+					height: 45em;
 					margin: 0 1.25em 0 0;
 				}
 
